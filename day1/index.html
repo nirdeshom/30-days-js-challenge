@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feature Request</title>
+</head>
+
+<body>
+    <script>
+        // Task 1: Variable Types Console Log: Write a script that declares variables of different data types and logs both the value and type of each variable to the console.
+        // Number
+        let score = 95;
+        console.log(score);
+        console.log(typeof score);
+
+        // BigInt
+        let bigInt = 957646287n;
+        console.log(bigInt);
+        console.log(typeof bigInt);
+
+        // String
+        let name = String("Nirdesh");
+        console.log(name);
+        console.log(typeof name);
+
+        // Booleane
+        let isLogged = true;
+        console.log(isLogged);
+        console.log(typeof isLogged);
+
+        // null
+        let temp = null;
+        console.log(temp);
+        console.log(typeof temp);
+
+        // undefind
+        let branch;
+        console.log(typeof branch);
+
+        // object
+        let my_obj = { name: "nirdesh", kgapaain: "tanya" };
+        console.log(my_obj);
+        console.log(typeof my_obj);
+
+        // Array
+        let myArray = [1, 2, 3, 4, "nirdesh"];
+        console.log(myArray);
+        console.log(typeof myArray);
+
+        // Function
+        const my_function = function () {
+            console.log("Hello My Function in JavaScript")
+        };
+        console.log(my_function());
+        console.log(typeof my_function);
+
+
+        // Create a script that demonstrates the difference in behavior between let and const when it comes to reassignment.
+
+        // Using let
+        let my_name = "nirdesh";
+        console.log(my_name);
+
+        my_name = "Chai Aur Code";
+        console.log(my_name);
+
+        // Using const
+        const my_num = 99;
+        console.log(my_num);
+         
+        // my_num = 98;
+        // console.log(my_name);
+
+        // Uncommenting the below line will cause an error because reassignConst is a constant and cannot be reassigned.
+        // my_num = "Trying to reassign const";
+        // TypeError: Assignment to constant variable.
+    </script>
+
+</body>
+
+</html>
