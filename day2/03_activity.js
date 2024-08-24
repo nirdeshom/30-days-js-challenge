@@ -20,6 +20,6 @@ console.log(largNum <= smallNum);
 console.log(33 == 33);
 console.log(33 == "33");
 
-console.log(33 == 33);
-console.log(33 == "33");
+console.log(33 === 33);
+console.log(33 === "33");
 
